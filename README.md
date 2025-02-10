@@ -26,24 +26,6 @@ This project generates structured JSON data, indexing it in Elasticsearch. Below
 
 ![Elasticsearch Schema](https://github.com/ndomah/Contact-Tracing-with-Elasticsearch/blob/main/img/fig3-elasticsearch-schema.png)
 
-Each scan record consists of:
-```json
-{
-  "user_name": "Casey Sanders",
-  "user_state": "California",
-  "user_birth_date": -337392000000,
-  "deviceID": "0484845484926",
-  "scan_timestamp": 1641061186000,
-  "business_id": "0457369-01-001",
-  "business_name": "Johns Burger",
-  "business_address": "1114 Market St",
-  "city": "San Francisco",
-  "zip": "94105",
-  "latitude": 33.7470274,
-  "longitude": -84.3534244
-}
-```
-
 ## Workflow
 
 **1. Prepare Business Data**
